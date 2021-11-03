@@ -1,0 +1,99 @@
+{
+    "id": 574,
+    "name": "Standard Database: CPU and Memory Utilization too high",
+    "enabled": true,
+    "useDataFromLastNMinutes": 30,
+    "waitTimeAfterViolation": 30,
+    "scheduleName": "Always",
+    "affects": {
+        "affectedEntityType": "DATABASES",
+        "databaseType": "ALL_DATABASE_TYPES",
+        "affectedDatabases": {
+            "databaseScope": "ALL_DATABASES"
+        }
+    },
+    "evalCriterias": {
+        "criticalCriteria": {
+            "conditionAggregationType": "ANY",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Memory Utilization Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Hardware Resources|Memory|Used %",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 90
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 15
+                },
+                {
+                    "name": "CPU Utilization Absolute",
+                    "shortName": "C",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Hardware Resources|CPU|%Busy",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 90
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 15
+                }
+            ],
+            "evalMatchingCriteria": null
+        },
+        "warningCriteria": {
+            "conditionAggregationType": "ANY",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Memory Utilization Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Hardware Resources|Memory|Used %",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 75
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 10
+                },
+                {
+                    "name": "CPU Utilization Absolute",
+                    "shortName": "C",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Hardware Resources|CPU|%Busy",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 80
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 10
+                }
+            ],
+            "evalMatchingCriteria": null
+        }
+    }
+}

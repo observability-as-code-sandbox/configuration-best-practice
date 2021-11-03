@@ -1,0 +1,65 @@
+{
+    "id": 573,
+    "name": "Standard Database: Availability too low",
+    "enabled": true,
+    "useDataFromLastNMinutes": 10,
+    "waitTimeAfterViolation": 10,
+    "scheduleName": "Always",
+    "affects": {
+        "affectedEntityType": "DATABASES",
+        "databaseType": "ALL_DATABASE_TYPES",
+        "affectedDatabases": {
+            "databaseScope": "ALL_DATABASES"
+        }
+    },
+    "evalCriterias": {
+        "criticalCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Time spent in Executions Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": true,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "DB|KPI|DB Availability",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "LESS_THAN_SPECIFIC_VALUE",
+                            "compareValue": 1
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 5
+                }
+            ],
+            "evalMatchingCriteria": null
+        },
+        "warningCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Time spent in Executions Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "DB|KPI|DB Availability",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "LESS_THAN_SPECIFIC_VALUE",
+                            "compareValue": 1
+                        }
+                    },
+                    "triggerEnabled": false,
+                    "minimumTriggers": 1
+                }
+            ],
+            "evalMatchingCriteria": null
+        }
+    }
+}
