@@ -1,10 +1,12 @@
 #!/bin/bash
 
 # 1. INPUT PARAMETERS
-_controller_url="<controller-url>/controller"   # hostname + /controller
-_user_credentials="<credentials>" # ${username}:${password}
-_application_name="<application-name>" #Producktion
-_proxy_details=
+_controller_url=${1}   # http(s):// hostname + /controller
+_user_credentials=${2} # $ username@account:password
+
+_application_name=${3}
+_proxy_details=${4}
+
 _health_rules_overwrite=true
 _include_sim=true
 
