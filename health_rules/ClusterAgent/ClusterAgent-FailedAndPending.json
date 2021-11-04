@@ -1,0 +1,104 @@
+{
+    "id": 577,
+    "name": "Standard Cluster: Failed and Pending Pods Number too high",
+    "enabled": true,
+    "useDataFromLastNMinutes": 30,
+    "waitTimeAfterViolation": 30,
+    "scheduleName": "Always",
+    "affects": {
+        "affectedEntityType": "CUSTOM",
+        "affectedEntityScope": {
+            "entityScope": "SPECIFIC_ENTITY_PERFORMANCE",
+            "entityType": "SERVER",
+            "affectedEntityName": "cluster-agent-demo"
+        }
+    },
+    "evalCriterias": {
+        "criticalCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Pods Failed and Pending Percent Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "METRIC_EXPRESSION",
+                        "metricExpression": "({FailedPods}+{PendingPods})/{TotalPods}*100",
+                        "metricExpressionVariables": [
+                            {
+                                "variableName": "FailedPods",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Pods failed"
+                            },
+                            {
+                                "variableName": "PendingPods",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Pods pending"
+                            },
+                            {
+                                "variableName": "TotalPods",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Pods count"
+                            }
+                        ],
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 80
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 15
+                }
+            ],
+            "evalMatchingCriteria": {
+                "matchType": "ANY_NODE",
+                "value": null
+            }
+        },
+        "warningCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Pods Failed and Pending Percent Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "METRIC_EXPRESSION",
+                        "metricExpression": "({FailedPods}+{PendingPods})/{TotalPods}*100",
+                        "metricExpressionVariables": [
+                            {
+                                "variableName": "FailedPods",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Pods failed"
+                            },
+                            {
+                                "variableName": "PendingPods",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Pods pending"
+                            },
+                            {
+                                "variableName": "TotalPods",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Pods count"
+                            }
+                        ],
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 50
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 15
+                }
+            ],
+            "evalMatchingCriteria": {
+                "matchType": "ANY_NODE",
+                "value": null
+            }
+        }
+    }
+}

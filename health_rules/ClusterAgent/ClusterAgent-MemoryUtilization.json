@@ -1,0 +1,94 @@
+{
+    "id": 576,
+    "name": "Standard Cluster: Memory Utilization too high",
+    "enabled": true,
+    "useDataFromLastNMinutes": 30,
+    "waitTimeAfterViolation": 30,
+    "scheduleName": "Always",
+    "affects": {
+        "affectedEntityType": "CUSTOM",
+        "affectedEntityScope": {
+            "entityScope": "SPECIFIC_ENTITY_PERFORMANCE",
+            "entityType": "SERVER",
+            "affectedEntityName": "cluster-agent-demo"
+        }
+    },
+    "evalCriterias": {
+        "criticalCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "CPU Capacity Utilized Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "METRIC_EXPRESSION",
+                        "metricExpression": "{CapacityUsedMilliCores}/{CapacityTotalMilliCores}*100",
+                        "metricExpressionVariables": [
+                            {
+                                "variableName": "CapacityUsedMilliCores",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|CPU|Capacity|Used (MilliCores)"
+                            },
+                            {
+                                "variableName": "CapacityTotalMilliCores",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|CPU|Capacity|Total (MilliCores)"
+                            }
+                        ],
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 90
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 15
+                }
+            ],
+            "evalMatchingCriteria": {
+                "matchType": "ANY_NODE",
+                "value": null
+            }
+        },
+        "warningCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "CPU Capacity Utilized Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "METRIC_EXPRESSION",
+                        "metricExpression": "{CapacityUsedMB}/{CapacityTotalMB}*100",
+                        "metricExpressionVariables": [
+                            {
+                                "variableName": "CapacityUsedMB",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Memory|Capacity|Used (MB)"
+                            },
+                            {
+                                "variableName": "CapacityTotalMB",
+                                "metricAggregateFunction": "VALUE",
+                                "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Memory|Capacity|Total (MB)"
+                            }
+                        ],
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 75
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 10
+                }
+            ],
+            "evalMatchingCriteria": {
+                "matchType": "ANY_NODE",
+                "value": null
+            }
+        }
+    }
+}

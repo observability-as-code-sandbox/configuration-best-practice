@@ -1,0 +1,110 @@
+{
+    "id": 578,
+    "name": "Standard Cluster: Storage Errors Number too high",
+    "enabled": true,
+    "useDataFromLastNMinutes": 30,
+    "waitTimeAfterViolation": 30,
+    "scheduleName": "Always",
+    "affects": {
+        "affectedEntityType": "CUSTOM",
+        "affectedEntityScope": {
+            "entityScope": "SPECIFIC_ENTITY_PERFORMANCE",
+            "entityType": "SERVER",
+            "affectedEntityName": "cluster-agent-demo"
+        }
+    },
+    "evalCriterias": {
+        "criticalCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Storage Errors Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Storage errors",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 30
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 30
+                },
+                {
+                    "name": "Storage Errors Relative",
+                    "shortName": "B",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Storage errors",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "BASELINE_TYPE",
+                            "baselineCondition": "GREATER_THAN_BASELINE",
+                            "baselineName": "Default Baseline",
+                            "compareValue": 200,
+                            "baselineUnit": "PERCENTAGE"
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 15
+                }
+            ],
+            "evalMatchingCriteria": {
+                "matchType": "ANY_NODE",
+                "value": null
+            }
+        },
+        "warningCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Storage Errors Absolute",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Storage errors",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 10
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 30
+                },
+                {
+                    "name": "Storage Errors Relative",
+                    "shortName": "B",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Application Infrastructure Performance|Root|Individual Nodes|cluster-agent-demo|Hardware Resources|Cluster|Storage errors",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "BASELINE_TYPE",
+                            "baselineCondition": "GREATER_THAN_BASELINE",
+                            "baselineName": "Default Baseline",
+                            "compareValue": 90,
+                            "baselineUnit": "PERCENTAGE"
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 15
+                }
+            ],
+            "evalMatchingCriteria": {
+                "matchType": "ANY_NODE",
+                "value": null
+            }
+        }
+    }
+}
