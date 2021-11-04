@@ -8,7 +8,20 @@ _application_name=${3}
 _proxy_details=${4}
 
 _health_rules_overwrite=true
+
+_include_app=true
 _include_sim=true
+_include_cluster_agent=true
+_include_jvm=true
+_include_database=true
+
+#init HR templates
+serverVizHealthRuleFile="./health_rules/ServerVisibility/*.json"
+applicationHealthRule="./health_rules/Application/*.json"
+clusterAgentHealthRule="./health_rules/ClusterAgent/*.json"
+jvmHealthRule="./health_rules/JVM/*.json"
+databaseHealthRule="./health_rules/Database/*.json"
+
 
 function func_get_application_id() {
     local _controller_url=${1} # hostname + /controller
@@ -59,9 +72,6 @@ function func_import_health_rules(){
     done
 }
 
-#init HR templates
-serverVizHealthRuleFile="./health_rules/ServerVisibility/*.json"
-applicationHealthRule="./health_rules/Application/*.json"
 
 # get app id
 echo "Getting app id..."
@@ -70,6 +80,14 @@ echo "Application id is: ${appId}"
 
 # 4. EXECUTE 
 
+# Applicationhealth rules
+if [ "${_include_app}" = true ]; then
+    # Application health rules
+    echo "Creating ${_application_name} Health Rules..."
+
+    func_import_health_rules $appId "${applicationHealthRule}"
+fi
+
 # Server Visibility health rules
 if [ "${_include_sim}" = true ]; then
     echo "Creating Server Visibility Health Rules.."
@@ -77,10 +95,28 @@ if [ "${_include_sim}" = true ]; then
     func_import_health_rules $appId "${serverVizHealthRuleFile}"
 fi
 
-# Application health rules
-echo "Creating ${_application_name} Health Rules..."
+# Cluster Agent health rules
+if [ "${_include_cluster_agent}" = true ]; then
+    echo "Creating Cluster Agent Health Rules.."
 
-func_import_health_rules $appId "${applicationHealthRule}"
+    func_import_health_rules 3 "${clusterAgentHealthRule}"
+fi
+
+# JVM health rules
+if [ "${_include_jvm}" = true ]; then
+    echo "Creating JVM Health Rules.."
+
+    func_import_health_rules $appId "${jvmHealthRule}"
+fi
+
+# Database health rules
+if [ "${_include_database}" = true ]; then
+    echo "Creating Database Health Rules.."
+
+    func_import_health_rules 1 "${databaseHealthRule}"
+fi
+
+
 
 
 
