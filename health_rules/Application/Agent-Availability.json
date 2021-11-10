@@ -1,5 +1,5 @@
 {
-    "name": "Agent Availability",
+    "name": "Standard Application: Agent Availability",
     "enabled": true,
     "useDataFromLastNMinutes": 60,
     "waitTimeAfterViolation": 35,
