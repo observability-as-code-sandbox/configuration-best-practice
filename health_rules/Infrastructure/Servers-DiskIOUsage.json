@@ -1,0 +1,105 @@
+{
+    "id": 596,
+    "name": "Standard Servers: Disk IO too high",
+    "enabled": true,
+    "useDataFromLastNMinutes": 15,
+    "waitTimeAfterViolation": 30,
+    "scheduleName": "Always",
+    "affects": {
+        "affectedEntityType": "SERVERS",
+        "serverSelectionCriteria": {
+            "selectServersBy": "AFFECTED_SERVERS",
+            "affectedServers": {
+                "severSelectionScope": "ALL_SERVERS_IN_ACCOUNT"
+            }
+        }
+    },
+    "evalCriterias": {
+        "criticalCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Hardware Resources|Disks|Avg IO Utilization (%) Absolute",
+                    "shortName": "B",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Hardware Resources|Disks|Avg IO Utilization (%)",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 95
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 5
+                },
+                {
+                    "name": "Hardware Resources|Disks|Avg IO Utilization (%) Relative",
+                    "shortName": "C",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Hardware Resources|Disks|Avg IO Utilization (%)",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "BASELINE_TYPE",
+                            "baselineCondition": "GREATER_THAN_BASELINE",
+                            "baselineName": "Default Baseline",
+                            "compareValue": 200,
+                            "baselineUnit": "PERCENTAGE"
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 5
+                }
+            ],
+            "evalMatchingCriteria": null
+        },
+        "warningCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Hardware Resources|Disks|Avg IO Utilization (%) Absolute",
+                    "shortName": "B",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Hardware Resources|Disks|Avg IO Utilization (%)",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "GREATER_THAN_SPECIFIC_VALUE",
+                            "compareValue": 80
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 5
+                },
+                {
+                    "name": "Hardware Resources|Disks|Avg IO Utilization (%) Relative",
+                    "shortName": "C",
+                    "evaluateToTrueOnNoData": false,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "VALUE",
+                        "metricPath": "Hardware Resources|Disks|Avg IO Utilization (%)",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "BASELINE_TYPE",
+                            "baselineCondition": "GREATER_THAN_BASELINE",
+                            "baselineName": "Default Baseline",
+                            "compareValue": 150,
+                            "baselineUnit": "PERCENTAGE"
+                        }
+                    },
+                    "triggerEnabled": true,
+                    "minimumTriggers": 5
+                }
+            ],
+            "evalMatchingCriteria": null
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "id": 593,
+    "name": "Standard Servers: Availability is too low",
+    "enabled": true,
+    "useDataFromLastNMinutes": 10,
+    "waitTimeAfterViolation": 30,
+    "scheduleName": "Always",
+    "affects": {
+        "affectedEntityType": "SERVERS",
+        "serverSelectionCriteria": {
+            "selectServersBy": "AFFECTED_SERVERS",
+            "affectedServers": {
+                "severSelectionScope": "ALL_SERVERS_IN_ACCOUNT"
+            }
+        }
+    },
+    "evalCriterias": {
+        "criticalCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Hardware Resources|Machine|Availability Condition",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": true,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "SUM",
+                        "metricPath": "Hardware Resources|Machine|Availability",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "LESS_THAN_SPECIFIC_VALUE",
+                            "compareValue": 300
+                        }
+                    },
+                    "triggerEnabled": false,
+                    "minimumTriggers": 5
+                }
+            ],
+            "evalMatchingCriteria": null
+        },
+        "warningCriteria": {
+            "conditionAggregationType": "ALL",
+            "conditionExpression": null,
+            "conditions": [
+                {
+                    "name": "Hardware Resources|Machine|Availability Condition",
+                    "shortName": "A",
+                    "evaluateToTrueOnNoData": true,
+                    "evalDetail": {
+                        "evalDetailType": "SINGLE_METRIC",
+                        "metricAggregateFunction": "SUM",
+                        "metricPath": "Hardware Resources|Machine|Availability",
+                        "metricEvalDetail": {
+                            "metricEvalDetailType": "SPECIFIC_TYPE",
+                            "compareCondition": "LESS_THAN_SPECIFIC_VALUE",
+                            "compareValue": 500
+                        }
+                    },
+                    "triggerEnabled": false,
+                    "minimumTriggers": 5
+                }
+            ],
+            "evalMatchingCriteria": null
+        }
+    }
+}
