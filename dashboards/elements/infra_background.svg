@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1600 220" xmlns="http://www.w3.org/2000/svg">
+  <rect x="-0.517" y="-0.517" width="1600.827" height="220.786" style="fill: rgb(224, 224, 224); visibility: hidden;">
+    <title>Background</title>
+  </rect>
+  <rect x="4.102" y="5.619" width="1592.555" height="212.513" rx="9.307" ry="9.307" style="stroke-width: 2; fill: rgb(41, 46, 53);">
+    <title>Shadow</title>
+  </rect>
+  <rect x="3.102" y="3.619" width="1590.486" height="212.513" rx="9.307" ry="9.307" style="fill: rgb(224, 224, 224); stroke: rgb(224, 224, 224); stroke-width: 2;"/>
+</svg>
