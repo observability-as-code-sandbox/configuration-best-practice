@@ -1,7 +1,7 @@
 # Configuration-best-practice
 
 ## Steps to use Health rules
-1) Obtain controller conenction details:
+1) Obtain controller connection details:
 - Controller URL
 - Access Token (API Access)
 
@@ -13,10 +13,10 @@ Create .local.token file and paste plaintext token value.
 Set "modules to use":
 
 ```console
-_include_app=false              # applciation health rules
-_include_sim=false              # applciation server visibility health rules
+_include_app=false              # appliciation health rules
+_include_sim=false              # appliciation server visibility health rules
 _include_cluster_agent=false    # cluster agent (kubernetes) health rules
-_include_jvm=false              # applciation jvm health rules
+_include_jvm=false              # appliciation jvm health rules
 _include_database=false         # database health rules
 _include_infrastructure=true    # server/machine agent health rules
 ```

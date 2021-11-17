@@ -1,18 +1,16 @@
 #!/bin/bash
 ###
 ### to run:
-### ./import_health_rules.sh https://account-name.saas.appdynamics.com "" KongApp
+### ./import_health_rules.sh https://account-name.saas.appdynamics.com KongApp
 ### ./import_health_rules.sh https://account-name.saas.appdynamics.com
-### ./import_health_rules.sh https://account-name.saas.appdynamics.com token-value
-### ./import_health_rules.sh https://account-name.saas.appdynamics.com token-value AppName
 
 
 # 1. INPUT PARAMETERS
 _controller_url="${1}" # https://account-name.saas.appdynamics.com # http://on-prem-controller.appdynamics.com:8090
-_token="${2}" # provide as input or in ".local.token" file
+#_token="${2}" # provide in ".local.token" file
 
-_application_name=${3} # not mandatory (unless importing application health rules)
-_proxy_details=${4} # not mandatory
+_application_name=${2} # not mandatory (unless importing application health rules)
+_proxy_details=${3} # not mandatory
 
 # to overwrite or not existing health rules
 _health_rules_overwrite=false
@@ -26,7 +24,7 @@ _include_database=false
 _include_infrastructure=true
 
 # In our demo saas controllers server id is 3 and database id is 1, however, this can vary based on controller
-# navigate to servers/databases view and check appication_id query parameter in URL
+# navigate to servers/databases view and check appication_id query parameter in browser URL
 _server_app_id=711
 _db_app_id=711
 
@@ -81,8 +79,6 @@ databaseHealthRule="./health_rules/Database/*.json"
 infrastructureHealthRule="./health_rules/Infrastructure/*.json"
 
 
-
-
 function func_get_application_id() {
     local _controller_url=${1} # hostname + /controller
     local _auth_header=${2}
@@ -92,7 +88,7 @@ function func_get_application_id() {
 
     # Get all applications
     allApplications=$(curl -s -H "${_auth_header}" ${_controller_url}/rest/applications?output=JSON ${_proxy_details})
-
+    
     # Select by name
     applicationObject=$(jq --arg appName "$_application_name" '.[] | select(.name == $appName)' <<<$allApplications)
 
@@ -134,7 +130,8 @@ function func_import_health_rules(){
 
 # get app id
 echo "Getting app id... '${_application_name}'"
-appId=$(func_get_application_id ${_controller_url} ${_auth_header} ${_application_name} ${_proxy_details} )
+appId=$(func_get_application_id "${_controller_url}" "${_auth_header}" "${_application_name}" "${_proxy_details}" )
+
 echo "Application id is: ${appId}"
 
 # 4. EXECUTE 
