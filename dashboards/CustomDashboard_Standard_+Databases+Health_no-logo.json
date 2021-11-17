@@ -230,7 +230,7 @@
             "applicationReference": null,
             "entityReferences": [
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "CPU utilization is too high",
                     "scopingEntityType": null,
@@ -238,9 +238,9 @@
                     "subtype": null
                 },
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "APPLICATION",
-                    "entityName": "AD-Financial",
+                    "entityName": "changeme-app",
                     "scopingEntityType": null,
                     "scopingEntityName": null,
                     "subtype": null
@@ -313,9 +313,9 @@
                                 {
                                     "applicationName": "Database Monitoring",
                                     "entityType": "DB_SERVER",
-                                    "entityName": "AD-Retail - PostgreSQL",
+                                    "entityName": "changeme-db",
                                     "scopingEntityType": "DB_MONITOR_CONFIG",
-                                    "scopingEntityName": "AD-Retail - PostgreSQL",
+                                    "scopingEntityName": "changeme-db",
                                     "subtype": null
                                 }
                             ],
@@ -357,9 +357,9 @@
                                 {
                                     "applicationName": "Database Monitoring",
                                     "entityType": "DB_SERVER",
-                                    "entityName": "AD-Retail - PostgreSQL",
+                                    "entityName": "changeme-db",
                                     "scopingEntityType": "DB_MONITOR_CONFIG",
-                                    "scopingEntityName": "AD-Retail - PostgreSQL",
+                                    "scopingEntityName": "changeme-db",
                                     "subtype": null
                                 }
                             ],
@@ -500,9 +500,9 @@
                                 {
                                     "applicationName": "Database Monitoring",
                                     "entityType": "DB_SERVER",
-                                    "entityName": "AD-Retail - PostgreSQL",
+                                    "entityName": "changeme-db",
                                     "scopingEntityType": "DB_MONITOR_CONFIG",
-                                    "scopingEntityName": "AD-Retail - PostgreSQL",
+                                    "scopingEntityName": "changeme-db",
                                     "subtype": null
                                 }
                             ],
@@ -631,7 +631,7 @@
             "applicationReference": null,
             "entityReferences": [
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "BUSINESS_TRANSACTION",
                     "entityName": "Account Home",
                     "scopingEntityType": "APPLICATION_COMPONENT",
@@ -639,9 +639,9 @@
                     "subtype": "SERVLET"
                 },
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "APPLICATION",
-                    "entityName": "AD-Financial",
+                    "entityName": "changeme-app",
                     "scopingEntityType": null,
                     "scopingEntityName": null,
                     "subtype": null
@@ -920,7 +920,7 @@
             "applicationReference": null,
             "entityReferences": [
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "BUSINESS_TRANSACTION",
                     "entityName": "Account Home",
                     "scopingEntityType": "APPLICATION_COMPONENT",
@@ -928,9 +928,9 @@
                     "subtype": "SERVLET"
                 },
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "APPLICATION",
-                    "entityName": "AD-Financial",
+                    "entityName": "changeme-app",
                     "scopingEntityType": null,
                     "scopingEntityName": null,
                     "subtype": null
@@ -2339,7 +2339,7 @@
             "applicationReference": null,
             "entityReferences": [
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "CPU utilization is too high",
                     "scopingEntityType": null,
@@ -2347,9 +2347,9 @@
                     "subtype": null
                 },
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "APPLICATION",
-                    "entityName": "AD-Financial",
+                    "entityName": "changeme-app",
                     "scopingEntityType": null,
                     "scopingEntityName": null,
                     "subtype": null
@@ -2422,9 +2422,9 @@
                                 {
                                     "applicationName": "Database Monitoring",
                                     "entityType": "DB_SERVER",
-                                    "entityName": "AD-Retail - PostgreSQL",
+                                    "entityName": "changeme-db",
                                     "scopingEntityType": "DB_MONITOR_CONFIG",
-                                    "scopingEntityName": "AD-Retail - PostgreSQL",
+                                    "scopingEntityName": "changeme-db",
                                     "subtype": null
                                 }
                             ],
@@ -2466,9 +2466,9 @@
                                 {
                                     "applicationName": "Database Monitoring",
                                     "entityType": "DB_SERVER",
-                                    "entityName": "AD-Retail - PostgreSQL",
+                                    "entityName": "changeme-db",
                                     "scopingEntityType": "DB_MONITOR_CONFIG",
-                                    "scopingEntityName": "AD-Retail - PostgreSQL",
+                                    "scopingEntityName": "changeme-db",
                                     "subtype": null
                                 }
                             ],
@@ -2609,9 +2609,9 @@
                                 {
                                     "applicationName": "Database Monitoring",
                                     "entityType": "DB_SERVER",
-                                    "entityName": "AD-Retail - PostgreSQL",
+                                    "entityName": "changeme-db",
                                     "scopingEntityType": "DB_MONITOR_CONFIG",
-                                    "scopingEntityName": "AD-Retail - PostgreSQL",
+                                    "scopingEntityName": "changeme-db",
                                     "subtype": null
                                 }
                             ],
@@ -2740,7 +2740,7 @@
             "applicationReference": null,
             "entityReferences": [
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "BUSINESS_TRANSACTION",
                     "entityName": "Account Home",
                     "scopingEntityType": "APPLICATION_COMPONENT",
@@ -2748,9 +2748,9 @@
                     "subtype": "SERVLET"
                 },
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "APPLICATION",
-                    "entityName": "AD-Financial",
+                    "entityName": "changeme-app",
                     "scopingEntityType": null,
                     "scopingEntityName": null,
                     "subtype": null
@@ -2943,7 +2943,7 @@
             "applicationReference": null,
             "entityReferences": [
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "BUSINESS_TRANSACTION",
                     "entityName": "Account Home",
                     "scopingEntityType": "APPLICATION_COMPONENT",
@@ -2951,9 +2951,9 @@
                     "subtype": "SERVLET"
                 },
                 {
-                    "applicationName": "AD-Financial",
+                    "applicationName": "changeme-app",
                     "entityType": "APPLICATION",
-                    "entityName": "AD-Financial",
+                    "entityName": "changeme-app",
                     "scopingEntityType": null,
                     "scopingEntityName": null,
                     "subtype": null

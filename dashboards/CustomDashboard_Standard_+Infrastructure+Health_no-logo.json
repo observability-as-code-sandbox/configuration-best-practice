@@ -114,17 +114,9 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
-                                    "subtype": null
-                                },
-                                {
-                                    "applicationName": "Server & Infrastructure Monitoring",
-                                    "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "ma-te-integration-1",
-                                    "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],
@@ -393,7 +385,7 @@
             "isGlobal": true,
             "propertiesMap": null,
             "dataSeriesTemplates": null,
-            "text": "CPU Busy % by VM",
+            "text": "CPU Busy %",
             "textAlign": "CENTER",
             "margin": 0
         },
@@ -463,6 +455,14 @@
                                     "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
+                                    "subtype": null
+                                },
+                                {
+                                    "applicationName": "Server & Infrastructure Monitoring",
+                                    "entityType": "APPLICATION_COMPONENT_NODE",
+                                    "entityName": "10.91.9.249",
+                                    "scopingEntityType": "APPLICATION_COMPONENT",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],
@@ -550,7 +550,7 @@
             "isGlobal": true,
             "propertiesMap": null,
             "dataSeriesTemplates": null,
-            "text": "Memory Used % by VM",
+            "text": "Memory Used %",
             "textAlign": "CENTER",
             "margin": 0
         },
@@ -1179,6 +1179,14 @@
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
+                                },
+                                {
+                                    "applicationName": "Server & Infrastructure Monitoring",
+                                    "entityType": "APPLICATION_COMPONENT_NODE",
+                                    "entityName": "10.91.9.249",
+                                    "scopingEntityType": "APPLICATION_COMPONENT",
+                                    "scopingEntityName": "Root|HK",
+                                    "subtype": null
                                 }
                             ],
                             "summary": false
@@ -1585,7 +1593,7 @@
             "isGlobal": true,
             "propertiesMap": null,
             "dataSeriesTemplates": null,
-            "text": "CPU Busy % by VM",
+            "text": "CPU Busy %",
             "textAlign": "CENTER",
             "margin": 0
         },
@@ -1629,7 +1637,7 @@
             "isGlobal": true,
             "propertiesMap": null,
             "dataSeriesTemplates": null,
-            "text": "Memory Used % by VM",
+            "text": "Memory Used %",
             "textAlign": "CENTER",
             "margin": 0
         },
@@ -2387,7 +2395,7 @@
             "isGlobal": true,
             "propertiesMap": null,
             "dataSeriesTemplates": null,
-            "text": "CPU Busy % by VM",
+            "text": "CPU Busy %",
             "textAlign": "CENTER",
             "margin": 0
         },
@@ -2431,7 +2439,7 @@
             "isGlobal": true,
             "propertiesMap": null,
             "dataSeriesTemplates": null,
-            "text": "Memory Used % by VM",
+            "text": "Memory Used %",
             "textAlign": "CENTER",
             "margin": 0
         },
@@ -3978,8 +3986,8 @@
             "width": 300,
             "minHeight": 0,
             "minWidth": 0,
-            "x": 286,
-            "y": 384,
+            "x": 291,
+            "y": 136,
             "label": null,
             "description": null,
             "drillDownUrl": null,
@@ -4026,17 +4034,9 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
-                                    "subtype": null
-                                },
-                                {
-                                    "applicationName": "Server & Infrastructure Monitoring",
-                                    "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "ma-te-integration-1",
-                                    "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],
@@ -4091,8 +4091,8 @@
             "width": 300,
             "minHeight": 0,
             "minWidth": 0,
-            "x": 286,
-            "y": 384,
+            "x": 305,
+            "y": 650,
             "label": null,
             "description": null,
             "drillDownUrl": null,
@@ -4139,17 +4139,9 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "ma-te-integration-1",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
-                                    "subtype": null
-                                },
-                                {
-                                    "applicationName": "Server & Infrastructure Monitoring",
-                                    "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
-                                    "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],
@@ -4205,7 +4197,7 @@
             "minHeight": 0,
             "minWidth": 0,
             "x": 294,
-            "y": 643,
+            "y": 390,
             "label": null,
             "description": null,
             "drillDownUrl": null,
@@ -4252,130 +4244,9 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
-                                    "subtype": null
-                                },
-                                {
-                                    "applicationName": "Server & Infrastructure Monitoring",
-                                    "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "ma-te-integration-1",
-                                    "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
-                                    "subtype": null
-                                }
-                            ],
-                            "summary": false
-                        },
-                        "metricExpressionTemplate": {
-                            "metricExpressionType": "Logical",
-                            "functionType": "VALUE",
-                            "displayName": "null",
-                            "inputMetricText": false,
-                            "inputMetricPath": null,
-                            "relativeMetricPath": "Hardware Resources|Memory|Used %"
-                        },
-                        "rollupMetricData": false,
-                        "expressionString": null,
-                        "useActiveBaseline": false,
-                        "sortResultsAscending": false,
-                        "maxResults": 20,
-                        "evaluationScopeType": null,
-                        "baselineName": null,
-                        "applicationName": "Server & Infrastructure Monitoring",
-                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM",
-                        "metricDisplayNameCustomFormat": "${e}"
-                    },
-                    "axisPosition": "LEFT"
-                }
-            ],
-            "verticalAxisLabel": null,
-            "hideHorizontalAxis": null,
-            "horizontalAxisLabel": null,
-            "axisType": "LINEAR",
-            "stackMode": null,
-            "multipleYAxis": null,
-            "customVerticalAxisMin": null,
-            "customVerticalAxisMax": null,
-            "showEvents": null,
-            "interpolateDataGaps": false,
-            "showAllTooltips": null,
-            "staticThresholdList": [
-                {
-                    "value": 90,
-                    "color": 16737894,
-                    "name": null
-                }
-            ],
-            "eventFilterTemplate": null
-        },
-        {
-            "widgetType": "GraphWidget",
-            "title": null,
-            "height": 198,
-            "width": 300,
-            "minHeight": 0,
-            "minWidth": 0,
-            "x": 291,
-            "y": 136,
-            "label": null,
-            "description": null,
-            "drillDownUrl": null,
-            "useMetricBrowserAsDrillDown": true,
-            "drillDownActionType": null,
-            "backgroundColor": 16777215,
-            "backgroundColors": null,
-            "backgroundColorsStr": "14737632,16777215",
-            "color": 4210752,
-            "fontSize": 8,
-            "useAutomaticFontSize": false,
-            "borderEnabled": false,
-            "borderThickness": 0,
-            "borderColor": 14408667,
-            "backgroundAlpha": 0,
-            "showValues": false,
-            "formatNumber": true,
-            "numDecimals": 0,
-            "removeZeros": true,
-            "compactMode": false,
-            "showTimeRange": false,
-            "renderIn3D": false,
-            "showLegend": false,
-            "legendPosition": "POSITION_BOTTOM",
-            "legendColumnCount": 1,
-            "startTime": null,
-            "endTime": null,
-            "minutesBeforeAnchorTime": 15,
-            "isGlobal": true,
-            "propertiesMap": null,
-            "dataSeriesTemplates": [
-                {
-                    "seriesType": "LINE",
-                    "metricType": null,
-                    "showRawMetricName": false,
-                    "colorPalette": null,
-                    "name": "Series 1",
-                    "metricMatchCriteriaTemplate": {
-                        "entityMatchCriteria": {
-                            "matchCriteriaType": "SpecificEntities",
-                            "entityType": "APPLICATION_COMPONENT_NODE",
-                            "agentTypes": null,
-                            "entityNames": [
-                                {
-                                    "applicationName": "Server & Infrastructure Monitoring",
-                                    "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "ma-te-integration-1",
-                                    "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
-                                    "subtype": null
-                                },
-                                {
-                                    "applicationName": "Server & Infrastructure Monitoring",
-                                    "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
-                                    "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],
@@ -4430,8 +4301,8 @@
             "width": 300,
             "minHeight": 0,
             "minWidth": 0,
-            "x": 716,
-            "y": 398,
+            "x": 717,
+            "y": 654,
             "label": null,
             "description": null,
             "drillDownUrl": null,
@@ -4478,6 +4349,14 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
+                                    "entityName": "ma-te-integration-1",
+                                    "scopingEntityType": "APPLICATION_COMPONENT",
+                                    "scopingEntityName": "Root",
+                                    "subtype": null
+                                },
+                                {
+                                    "applicationName": "Server & Infrastructure Monitoring",
+                                    "entityType": "APPLICATION_COMPONENT_NODE",
                                     "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
@@ -4486,9 +4365,9 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "ma-te-integration-1",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],
@@ -4543,8 +4422,8 @@
             "width": 300,
             "minHeight": 0,
             "minWidth": 0,
-            "x": 720,
-            "y": 656,
+            "x": 705,
+            "y": 404,
             "label": null,
             "description": null,
             "drillDownUrl": null,
@@ -4603,6 +4482,14 @@
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
+                                },
+                                {
+                                    "applicationName": "Server & Infrastructure Monitoring",
+                                    "entityType": "APPLICATION_COMPONENT_NODE",
+                                    "entityName": "10.91.9.249",
+                                    "scopingEntityType": "APPLICATION_COMPONENT",
+                                    "scopingEntityName": "Root|HK",
+                                    "subtype": null
                                 }
                             ],
                             "summary": false
@@ -4656,103 +4543,7 @@
             "width": 200,
             "minHeight": 0,
             "minWidth": 0,
-            "x": 1139,
-            "y": 387,
-            "label": null,
-            "description": null,
-            "drillDownUrl": null,
-            "useMetricBrowserAsDrillDown": true,
-            "drillDownActionType": null,
-            "backgroundColor": 16777215,
-            "backgroundColors": null,
-            "backgroundColorsStr": "16777215,16777215",
-            "color": 4210752,
-            "fontSize": 12,
-            "useAutomaticFontSize": false,
-            "borderEnabled": false,
-            "borderThickness": 0,
-            "borderColor": 14408667,
-            "backgroundAlpha": 0,
-            "showValues": false,
-            "formatNumber": true,
-            "numDecimals": 0,
-            "removeZeros": true,
-            "compactMode": false,
-            "showTimeRange": false,
-            "renderIn3D": false,
-            "showLegend": false,
-            "legendPosition": "POSITION_BOTTOM",
-            "legendColumnCount": 1,
-            "startTime": null,
-            "endTime": null,
-            "minutesBeforeAnchorTime": 15,
-            "isGlobal": true,
-            "propertiesMap": null,
-            "dataSeriesTemplates": [
-                {
-                    "seriesType": "LINE",
-                    "metricType": null,
-                    "showRawMetricName": false,
-                    "colorPalette": null,
-                    "name": "VM",
-                    "metricMatchCriteriaTemplate": {
-                        "entityMatchCriteria": {
-                            "matchCriteriaType": "SpecificEntities",
-                            "entityType": "APPLICATION_COMPONENT_NODE",
-                            "agentTypes": null,
-                            "entityNames": [
-                                {
-                                    "applicationName": "Server & Infrastructure Monitoring",
-                                    "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "ma-te-integration-1",
-                                    "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
-                                    "subtype": null
-                                },
-                                {
-                                    "applicationName": "Server & Infrastructure Monitoring",
-                                    "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
-                                    "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
-                                    "subtype": null
-                                }
-                            ],
-                            "summary": false
-                        },
-                        "metricExpressionTemplate": {
-                            "metricExpressionType": "Logical",
-                            "functionType": "VALUE",
-                            "displayName": "null",
-                            "inputMetricText": false,
-                            "inputMetricPath": null,
-                            "relativeMetricPath": "Hardware Resources|Volumes|Used (%)"
-                        },
-                        "rollupMetricData": true,
-                        "expressionString": null,
-                        "useActiveBaseline": false,
-                        "sortResultsAscending": false,
-                        "maxResults": 20,
-                        "evaluationScopeType": null,
-                        "baselineName": null,
-                        "applicationName": "Server & Infrastructure Monitoring",
-                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM",
-                        "metricDisplayNameCustomFormat": "${e}"
-                    },
-                    "axisPosition": null
-                }
-            ],
-            "showLabels": false,
-            "showPercentValues": null
-        },
-        {
-            "widgetType": "PieWidget",
-            "title": null,
-            "height": 200,
-            "width": 200,
-            "minHeight": 0,
-            "minWidth": 0,
-            "x": 1144,
+            "x": 1140,
             "y": 638,
             "label": null,
             "description": null,
@@ -4800,17 +4591,97 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "ma-te-integration-1",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
-                                },
+                                }
+                            ],
+                            "summary": false
+                        },
+                        "metricExpressionTemplate": {
+                            "metricExpressionType": "Logical",
+                            "functionType": "VALUE",
+                            "displayName": "null",
+                            "inputMetricText": false,
+                            "inputMetricPath": null,
+                            "relativeMetricPath": "Hardware Resources|Volumes|Used (%)"
+                        },
+                        "rollupMetricData": true,
+                        "expressionString": null,
+                        "useActiveBaseline": false,
+                        "sortResultsAscending": false,
+                        "maxResults": 20,
+                        "evaluationScopeType": null,
+                        "baselineName": null,
+                        "applicationName": "Server & Infrastructure Monitoring",
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM",
+                        "metricDisplayNameCustomFormat": "${e}"
+                    },
+                    "axisPosition": null
+                }
+            ],
+            "showLabels": false,
+            "showPercentValues": null
+        },
+        {
+            "widgetType": "PieWidget",
+            "title": null,
+            "height": 200,
+            "width": 200,
+            "minHeight": 0,
+            "minWidth": 0,
+            "x": 1126,
+            "y": 380,
+            "label": null,
+            "description": null,
+            "drillDownUrl": null,
+            "useMetricBrowserAsDrillDown": true,
+            "drillDownActionType": null,
+            "backgroundColor": 16777215,
+            "backgroundColors": null,
+            "backgroundColorsStr": "16777215,16777215",
+            "color": 4210752,
+            "fontSize": 12,
+            "useAutomaticFontSize": false,
+            "borderEnabled": false,
+            "borderThickness": 0,
+            "borderColor": 14408667,
+            "backgroundAlpha": 0,
+            "showValues": false,
+            "formatNumber": true,
+            "numDecimals": 0,
+            "removeZeros": true,
+            "compactMode": false,
+            "showTimeRange": false,
+            "renderIn3D": false,
+            "showLegend": false,
+            "legendPosition": "POSITION_BOTTOM",
+            "legendColumnCount": 1,
+            "startTime": null,
+            "endTime": null,
+            "minutesBeforeAnchorTime": 15,
+            "isGlobal": true,
+            "propertiesMap": null,
+            "dataSeriesTemplates": [
+                {
+                    "seriesType": "LINE",
+                    "metricType": null,
+                    "showRawMetricName": false,
+                    "colorPalette": null,
+                    "name": "VM",
+                    "metricMatchCriteriaTemplate": {
+                        "entityMatchCriteria": {
+                            "matchCriteriaType": "SpecificEntities",
+                            "entityType": "APPLICATION_COMPONENT_NODE",
+                            "agentTypes": null,
+                            "entityNames": [
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],
@@ -4848,8 +4719,8 @@
             "width": 325,
             "minHeight": 0,
             "minWidth": 0,
-            "x": 1337,
-            "y": 401,
+            "x": 1338,
+            "y": 402,
             "label": null,
             "description": null,
             "drillDownUrl": null,
@@ -4896,6 +4767,14 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
+                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
+                                    "scopingEntityType": "APPLICATION_COMPONENT",
+                                    "scopingEntityName": "Root",
+                                    "subtype": null
+                                },
+                                {
+                                    "applicationName": "Server & Infrastructure Monitoring",
+                                    "entityType": "APPLICATION_COMPONENT_NODE",
                                     "entityName": "ma-te-integration-1",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
@@ -4904,9 +4783,9 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],
@@ -4955,8 +4834,8 @@
             "width": 325,
             "minHeight": 0,
             "minWidth": 0,
-            "x": 1336,
-            "y": 653,
+            "x": 1346,
+            "y": 661,
             "label": null,
             "description": null,
             "drillDownUrl": null,
@@ -5003,6 +4882,14 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
+                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
+                                    "scopingEntityType": "APPLICATION_COMPONENT",
+                                    "scopingEntityName": "Root",
+                                    "subtype": null
+                                },
+                                {
+                                    "applicationName": "Server & Infrastructure Monitoring",
+                                    "entityType": "APPLICATION_COMPONENT_NODE",
                                     "entityName": "ma-te-integration-1",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
@@ -5011,9 +4898,9 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "A35660L63K5FPXC.HBAP.ADROOT.HSBC",
+                                    "entityName": "10.91.9.249",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
-                                    "scopingEntityName": "Root",
+                                    "scopingEntityName": "Root|HK",
                                     "subtype": null
                                 }
                             ],

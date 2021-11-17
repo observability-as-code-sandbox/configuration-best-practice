@@ -29,6 +29,8 @@ foo@bar:~$ ./import_health_rules.sh https://account-name.saas.appdynamics.com
 
 ## Steps to use Dashboards
 
-1) Import through the controller UI.
+1) Find and replace `changeme-app`, `changeme-db`, `changeme-server`, `changeme-cluster` values with your target entity names.
 
-2) Update metrics to fit the environment.
+2) Import through the controller UI.
+
+3) Update metrics to fit the environment.

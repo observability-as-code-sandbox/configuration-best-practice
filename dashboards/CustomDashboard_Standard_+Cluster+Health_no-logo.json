@@ -1,7 +1,7 @@
 {
     "schemaVersion": null,
     "dashboardFormatVersion": "4.0",
-    "name": "Standard: Cluster Health_1",
+    "name": "Standard: Cluster Health",
     "description": null,
     "properties": null,
     "templateEntityType": "APPLICATION_COMPONENT_NODE",
@@ -498,7 +498,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -546,7 +546,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -693,7 +693,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -741,7 +741,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -930,7 +930,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -978,7 +978,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -1207,7 +1207,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -1297,7 +1297,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -1435,7 +1435,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -1511,7 +1511,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -1610,7 +1610,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -1748,7 +1748,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -1796,7 +1796,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -2027,7 +2027,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -2161,7 +2161,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -2295,7 +2295,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -2385,7 +2385,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -2475,7 +2475,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -2697,7 +2697,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -2831,7 +2831,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -2921,7 +2921,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -3055,7 +3055,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -3189,7 +3189,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -3323,7 +3323,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -3502,7 +3502,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -3592,7 +3592,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -3682,7 +3682,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -3772,7 +3772,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -3862,7 +3862,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -4038,7 +4038,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -4174,7 +4174,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -4308,7 +4308,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -4424,7 +4424,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -4514,7 +4514,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -4692,7 +4692,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -4870,7 +4870,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -4918,7 +4918,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -5017,7 +5017,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -5133,7 +5133,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -5249,7 +5249,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -5365,7 +5365,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null
@@ -7309,7 +7309,7 @@
                                 {
                                     "applicationName": "Server & Infrastructure Monitoring",
                                     "entityType": "APPLICATION_COMPONENT_NODE",
-                                    "entityName": "wsit_k8s_app",
+                                    "entityName": "changeme-cluster",
                                     "scopingEntityType": "APPLICATION_COMPONENT",
                                     "scopingEntityName": "Root",
                                     "subtype": null

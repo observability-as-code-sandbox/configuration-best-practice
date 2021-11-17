@@ -806,16 +806,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -1240,9 +1240,9 @@
                             "agentTypes": null,
                             "entityNames": [
                                 {
-                                    "applicationName": "KongHQ",
+                                    "applicationName": "changeme-app",
                                     "entityType": "APPLICATION",
-                                    "entityName": "KongHQ",
+                                    "entityName": "changeme-app",
                                     "scopingEntityType": null,
                                     "scopingEntityName": null,
                                     "subtype": null
@@ -1265,7 +1265,7 @@
                         "maxResults": 20,
                         "evaluationScopeType": null,
                         "baselineName": null,
-                        "applicationName": "KongHQ",
+                        "applicationName": "changeme-app",
                         "metricDisplayNameStyle": "DISPLAY_STYLE_AUTO",
                         "metricDisplayNameCustomFormat": null
                     },
@@ -1846,9 +1846,9 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
@@ -1995,16 +1995,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Tiers: Error Rate Health",
                     "scopingEntityType": null,
@@ -2065,16 +2065,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Remote Service: Response Time Health",
                     "scopingEntityType": null,
@@ -2223,16 +2223,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Remote Service: Error Rate Health",
                     "scopingEntityType": null,
@@ -2381,16 +2381,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard JVM: Garbage Collection Time is too high",
                     "scopingEntityType": null,
@@ -2539,9 +2539,9 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
@@ -2644,16 +2644,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard JVM: Garbage Collection Time is too high",
                     "scopingEntityType": null,
@@ -2714,16 +2714,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -2784,16 +2784,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Error Rate Health",
                     "scopingEntityType": null,
@@ -2866,9 +2866,9 @@
                             "agentTypes": null,
                             "entityNames": [
                                 {
-                                    "applicationName": "KongHQ",
+                                    "applicationName": "changeme-app",
                                     "entityType": "APPLICATION",
-                                    "entityName": "KongHQ",
+                                    "entityName": "changeme-app",
                                     "scopingEntityType": null,
                                     "scopingEntityName": null,
                                     "subtype": null
@@ -2891,7 +2891,7 @@
                         "maxResults": 20,
                         "evaluationScopeType": null,
                         "baselineName": null,
-                        "applicationName": "KongHQ",
+                        "applicationName": "changeme-app",
                         "metricDisplayNameStyle": "DISPLAY_STYLE_AUTO",
                         "metricDisplayNameCustomFormat": null
                     },
@@ -2956,9 +2956,9 @@
                             "agentTypes": null,
                             "entityNames": [
                                 {
-                                    "applicationName": "KongHQ",
+                                    "applicationName": "changeme-app",
                                     "entityType": "APPLICATION",
-                                    "entityName": "KongHQ",
+                                    "entityName": "changeme-app",
                                     "scopingEntityType": null,
                                     "scopingEntityName": null,
                                     "subtype": null
@@ -3005,7 +3005,7 @@
                         "maxResults": 20,
                         "evaluationScopeType": null,
                         "baselineName": null,
-                        "applicationName": "KongHQ",
+                        "applicationName": "changeme-app",
                         "metricDisplayNameStyle": "DISPLAY_STYLE_AUTO",
                         "metricDisplayNameCustomFormat": null
                     },
@@ -3058,16 +3058,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -3128,16 +3128,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -3198,16 +3198,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Error Rate Health",
                     "scopingEntityType": null,
@@ -3268,16 +3268,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -3338,16 +3338,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -3408,16 +3408,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Error Rate Health",
                     "scopingEntityType": null,
@@ -3478,16 +3478,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -3548,16 +3548,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -3618,16 +3618,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Error Rate Health",
                     "scopingEntityType": null,
@@ -3688,16 +3688,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -3758,16 +3758,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Response Time Health",
                     "scopingEntityType": null,
@@ -3828,16 +3828,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Business Transaction: Error Rate Health",
                     "scopingEntityType": null,
@@ -3954,9 +3954,9 @@
                             "agentTypes": null,
                             "entityNames": [
                                 {
-                                    "applicationName": "KongHQ",
+                                    "applicationName": "changeme-app",
                                     "entityType": "APPLICATION",
-                                    "entityName": "KongHQ",
+                                    "entityName": "changeme-app",
                                     "scopingEntityType": null,
                                     "scopingEntityName": null,
                                     "subtype": null
@@ -3979,7 +3979,7 @@
                         "maxResults": 20,
                         "evaluationScopeType": null,
                         "baselineName": null,
-                        "applicationName": "KongHQ",
+                        "applicationName": "changeme-app",
                         "metricDisplayNameStyle": "DISPLAY_STYLE_AUTO",
                         "metricDisplayNameCustomFormat": null
                     },
@@ -4091,16 +4091,16 @@
             "propertiesMap": null,
             "dataSeriesTemplates": null,
             "applicationReference": {
-                "applicationName": "KongHQ",
+                "applicationName": "changeme-app",
                 "entityType": "APPLICATION",
-                "entityName": "KongHQ",
+                "entityName": "changeme-app",
                 "scopingEntityType": null,
                 "scopingEntityName": null,
                 "subtype": null
             },
             "entityReferences": [
                 {
-                    "applicationName": "KongHQ",
+                    "applicationName": "changeme-app",
                     "entityType": "POLICY",
                     "entityName": "Standard Application: Agent Availability",
                     "scopingEntityType": null,
