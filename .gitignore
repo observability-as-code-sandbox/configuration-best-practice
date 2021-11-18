@@ -1,2 +1,4 @@
 .local.*
 *.DS_Store
+exported/*.json
+exported/*/*.json
