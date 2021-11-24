@@ -17,11 +17,15 @@ _health_rules_overwrite=false
 
 ### Modules: TRUE / FALSE
 _include_app=false
-_include_sim=false
+_include_sim=true
+
 _include_cluster_agent=false
 _include_jvm=false
+
 _include_database=false
 _include_infrastructure=true
+
+_include_custom=true
 
 # In our demo saas controllers server id is 3 and database id is 1, however, this can vary based on controller
 # navigate to servers/databases view and check appication_id query parameter in browser URL
@@ -77,6 +81,8 @@ clusterAgentHealthRule="./health_rules/ClusterAgent/*.json"
 jvmHealthRule="./health_rules/JVM/*.json"
 databaseHealthRule="./health_rules/Database/*.json"
 infrastructureHealthRule="./health_rules/Infrastructure/*.json"
+
+customHealthRule="./health_rules/Custom/*.json"
 
 
 function func_get_application_id() {
@@ -179,6 +185,12 @@ if [ "${_include_database}" = true ]; then
     func_import_health_rules "$_db_app_id" "${databaseHealthRule}"
 fi
 
+# Custom health rules
+if [ "${_include_custom}" = true ]; then
+    echo -e "\nCreating Custom Health Rules.."
+
+    func_import_health_rules "$appId" "${customHealthRule}"
+fi
 
 
 
