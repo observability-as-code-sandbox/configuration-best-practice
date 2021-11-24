@@ -31,6 +31,7 @@ _auth_header="Authorization:Bearer ${_token}"
 ### application
 if ([[ -z "${_application_name// }" ]] && [ -z "${_application_id// }" ]); then
     echo "INPUT|ERROR|Application name and id are empty; One of the values has to be populated..."
+    exit 1
 fi
 
 ### controller
@@ -99,7 +100,7 @@ touch ${output}
 echo "$allHealthRules" > "${output}"
 
 files_dir="${destination_dir}/${_application_name}"
-mkdir ${files_dir}
+mkdir "${files_dir}"
 
 jq -c '.[]' "${output}" | while read i; do
     #echo $i
@@ -113,7 +114,7 @@ jq -c '.[]' "${output}" | while read i; do
     #echo "curl -s -H '${_auth_header}' ${_controller_url}/alerting/rest/v1/applications/${appId}/health-rules/$hrId"
     hrObject=$(curl -s -H "${_auth_header}" ${_controller_url}/alerting/rest/v1/applications/${appId}/health-rules/$hrId ${_proxy_details})
     
-    echo $hrObject > ${hrDest}
+    echo $hrObject > "${hrDest}"
 
 done
 
