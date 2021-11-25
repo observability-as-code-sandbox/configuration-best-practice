@@ -123,11 +123,11 @@ function func_import_health_rules(){
 
         # create new if health rule id does not exist
         if [ "${healthRuleId}" == "" ]; then
-            httpCode=$(curl -s -o /dev/null -w "%{http_code}" -X POST -H "${_auth_header}" ${_controller_url}/alerting/rest/v1/applications/${appId}/health-rules --header "Content-Type: application/json" --data "@${f}" ${_proxy_details})
+            httpCode=$(curl -s -o /dev/null -w "%{http_code}" -X POST -H "${_auth_header}" "${_controller_url}/alerting/rest/v1/applications/${appId}/health-rules" --header "Content-Type: application/json" --data "@${f}" ${_proxy_details})
             echo "HTTP code $httpCode"
         # overwrite existing health rule only if flag is true
         elif [ "${_health_rules_overwrite}" = true ]; then
-            httpCode=$(curl -s -o /dev/null -w "%{http_code}" -X PUT -H "${_auth_header}" ${_controller_url}/alerting/rest/v1/applications/${appId}/health-rules/${healthRuleId} --header "Content-Type: application/json" --data "@${f}" ${_proxy_details})
+            httpCode=$(curl -s -o /dev/null -w "%{http_code}" -X PUT -H "${_auth_header}" "${_controller_url}/alerting/rest/v1/applications/${appId}/health-rules/${healthRuleId}" --header "Content-Type: application/json" --data "@${f}" ${_proxy_details})
             echo "HTTP code $httpCode"
         fi
 
