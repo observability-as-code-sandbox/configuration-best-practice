@@ -1,4 +1,4 @@
-# Configuration-best-practice
+# Accelerated Onboarding: Configuration-best-practice
 
 ## Steps to use Health rules
 1) Obtain controller connection details:
